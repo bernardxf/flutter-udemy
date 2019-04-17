@@ -99,9 +99,11 @@ class _HomeState extends State<Home> {
           Expanded(
             child: RefreshIndicator(onRefresh: _refresh,
               child: ListView.builder(
-                  padding: EdgeInsets.only(top: 10.0),
-                  itemCount: _toDoList.length,
-                  itemBuilder: buildItem),),
+                padding: EdgeInsets.only(top: 10.0),
+                itemCount: _toDoList.length,
+                itemBuilder: buildItem
+              ),
+            ),
           )
         ],
       ),
