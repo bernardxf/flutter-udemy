@@ -42,8 +42,8 @@ class StaggerAnimation extends StatelessWidget {
             height: 60,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-                color: Color.fromRGBO(247, 64, 106, 1.0),
-                borderRadius: BorderRadius.all(Radius.circular(30.0))
+              color: Color.fromRGBO(247, 64, 106, 1.0),
+              borderRadius: BorderRadius.all(Radius.circular(30.0))
             ),
             child: _buildInside(context)
           ) :
